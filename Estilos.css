@@ -5,7 +5,7 @@ html{
 }
 
 body{
-    background-color: #814d2e;
+    background-color: #ffffff;
     font-family: 'Poppins';
     
 }
@@ -24,20 +24,21 @@ header ul{
 
 header ul li{
     margin-right: 20px;
-    color: #cc9c7c;
+    color: #661819;
+    
 }
 
 
 
 header p{
-    color: #cc9c7c;
+    color: #661819;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 header a{
     text-decoration: none;
-    color: #cc9c7c;
+    color: #661819;
 }
 
 main{
@@ -45,7 +46,7 @@ main{
 }
 
 footer{
-    background-color: #4d230b;
+    background-color: #bbb8b6;
     width: 100%;
     height: 100px;
     padding: 0;
@@ -62,7 +63,7 @@ footer ul{
 
 footer ul li{
     margin-right: 20px;
-    color: #cc9c7c;
+    color: #661819;
     
 }
 
@@ -72,7 +73,7 @@ footer p{
 
 footer a{
     text-decoration: none;
-    color: #814d2e;
+    color: #661819;
 }
 
 li{
@@ -126,44 +127,7 @@ h1{
 }
 
 /*PAGINA CONTACTO*/
-.linea{
-    border-top: 1px solid black;
-    height: 10px;
-    padding: 0;
-    margin: 20px auto 0 auto;
-}
 
-.header__titulos{
-   text-align: center;
-   color: #a7a7a7;
-   margin-bottom: 0px;
-   line-height: 10px;
-}
-
-.main__datoscontactos{
-    margin: 100px;
-    line-height: 20px;
-    justify-content:center;
-    
-}
-
-.main__datoscontactos a{
-    text-decoration: none;
-    color: #8c8c8c;
-    border: 1px solid
-    #8c8c8c;
-    padding: 20px 40px 20px 40px;
-    font-weight: bold;
-    
-}
-.main__datoscontactos h1, h2{
-    font-size: 22px;
-    width: 50%;
-    color: #8c8c8c;
-    margin-bottom: 10px;
-    
-    
-}
 
 
 
@@ -181,10 +145,14 @@ h1{
 }
 .main-vinos__figure{
     text-align: center;
-    padding: 2px;
-    font-weight: bold;
-    color: #8c8c8c;
+    padding: 1px;
     
+    color: #661819;
+    
+}
+
+.main-vinos__figure p{
+    font-weight: bold;
 }
 .main-vinos__figure img{
     width: 100%;
@@ -193,7 +161,7 @@ h1{
     
 }
 .main-vinos__figure img:hover{
-    transform: scale(1.1);
+    transform: scale(1.04);
     cursor: pointer;
 }
 
@@ -220,9 +188,52 @@ h1{
 }
 .main-contacto a{
     text-decoration: none;
-    color: #8c8c8c;
+    color: #661819;
     border: 1px solid
-    #8c8c8c;
+    #661819;
     padding: 20px 40px 20px 40px;
     font-weight: bold;
+}
+.linea{
+    border-top: 1px solid black;
+    height: 10px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+}
+
+.header__titulos{
+   text-align: center;
+   color: #661819;
+   margin-bottom: 0px;
+   line-height: 10px;
+   
+}
+
+.header__titulos h1{
+    color: #661819;
+}
+
+.main__datoscontactos{
+    margin: 100px;
+    line-height: 20px;
+    justify-content:center;
+    
+}
+
+.main__datoscontactos a{
+    text-decoration: none;
+    color: #661819;
+    border: 1px solid
+    #661819;
+    padding: 20px 40px 20px 40px;
+    font-weight: bold;
+    
+}
+.main__datoscontactos h1, h2{
+    font-size: 22px;
+    width: 50%;
+    color: #661819;
+    margin-bottom: 10px;
+    
+    
 }
